@@ -1,1 +1,1 @@
-echo `hostname`  `date`
+echo `hostname`  `date` >>/tmp/ansibleTest.txt
