@@ -1,2 +1,3 @@
-cd $1
-docker build -f Dockerfile  -t php:imageCreationDemo $1
+currentDir=BASEDIR=$(dirname $(realpath $BASH_SOURCE))
+cd $currentDir
+docker build -f Dockerfile  -t php:imageCreationDemo $currentDir
